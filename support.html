@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Gadget Store - Support</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            color: #00bfff; /* More prominent color */
+            animation: blink 1s linear infinite;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li {
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px; /* Adjusted for a wider container */
+            margin: 20px auto; /* Centered and some top/bottom margin */
+            padding: 20px;
+        }
+        .support-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .support-section h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .support-section p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .support-flowchart {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Blink animation */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">IT Gadget Store</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="support-section">
+            <h1>Support</h1>
+            <h2>Contact Us</h2>
+            <p>For any technical issues or inquiries, please use the following contact information:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:info@itgadgetstore.com">info@itgadgetstore.com</a></li>
+                <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                <li><strong>Address:</strong> 123 Tech Street, IT City, Country</li>
+            </ul>
+
+            <div class="support-flowchart">
+                <h2>Support Process</h2>
+                <!-- Placeholder for the flowchart image -->
+                <img src="support.webp" alt="Support Process Flowchart">
+                <p>Follow this flowchart to understand our support process and get the help you need.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IT Gadget Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

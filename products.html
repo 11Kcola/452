@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Gadget Store - Products</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            color: #00bfff; /* 更显眼的颜色 */
+            animation: blink 1s linear infinite;
+        }
+        .nav-links {
+            list-style: none;
+        }
+        .nav-links li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+        .product {
+            width: 24%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Blink animation */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">IT Gadget Store</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Our Products</h1>
+            <div class="product-section">
+                <div class="product">
+                    <img src="sb.webp" alt="Wireless Mouse">
+                    <h3>Wireless Mouse</h3>
+                    <p>Our wireless mouse features an ergonomic design for comfortable use over extended periods. It has a high-precision sensor for accurate cursor control and can connect via Bluetooth for seamless integration with your devices.</p>
+                </div>
+                <div class="product">
+                    <img src="jp.webp" alt="Wireless Keyboard">
+                    <h3>Wireless Keyboard</h3>
+                    <p>Enjoy the convenience of wireless technology with our full-size keyboard. It features low-profile keys for quiet typing and a sleek design that complements any workspace. The built-in rechargeable battery eliminates the need for frequent battery changes.</p>
+                </div>
+                <div class="product">
+                    <img src="ej.jpg" alt="Headphones">
+                    <h3>Headphones</h3>
+                    <p>Experience high-quality sound with our noise-cancelling headphones. They are designed to provide an immersive audio experience, whether you're gaming, watching movies, or listening to music. The comfortable fit ensures you can wear them for hours on end.</p>
+                </div>
+                <div class="product">
+                    <img src="zj.webp" alt="Laptop Stand">
+                    <h3>Laptop Stand</h3>
+                    <p>Improve your posture and workspace ergonomics with our adjustable laptop stand. It can elevate your laptop to eye level, reducing neck and back strain. The stand is made from durable materials and can support laptops of various sizes.</p>
+                </div>
+                <div class="product">
+                    <img src="lyq.jpg" alt="Wireless Router">
+                    <h3>Wireless Router</h3>
+                    <p>Our wireless router offers fast and reliable Wi-Fi connections for your home or office. It features multiple antennas for improved signal strength and coverage. The router also includes advanced security features to protect your network from unauthorized access.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IT Gadget Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Gadget Store - Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            color: #00bfff; /* 更显眼的颜色 */
+            animation: blink 1s linear infinite;
+        }
+        .nav-links {
+            list-style: none;
+        }
+        .nav-links li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .blog-section {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .blog-post:last-child {
+            border-bottom: none;
+        }
+        .blog-post h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .blog-post p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .blog-post time {
+            font-style: italic;
+            color: #888;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Blink animation */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">IT Gadget Store</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-section container">
+            <h1>Blog</h1>
+            <div class="blog-post">
+                <h2>Latest Tech Trends in 2024</h2>
+                <p>Discover the latest technology trends that are shaping the industry in 2024. From AI advancements to new cybersecurity measures, stay ahead with IT Gadget Store.</p>
+                <time datetime="2024-01-01">January 1, 2024</time>
+            </div>
+            <div class="blog-post">
+                <h2>The Future of IT Gadgets</h2>
+                <p>Explore the future of IT gadgets and how they are becoming more integrated into our daily lives, making tasks more efficient and enjoyable.</p>
+                <time datetime="2024-01-08">January 8, 2024</time>
+            </div>
+            <div class="blog-post">
+                <h2>Cybersecurity Best Practices</h2>
+                <p>Learn about the best practices in cybersecurity to protect your data and devices from threats. Stay safe online with expert advice from IT Gadget Store.</p>
+                <time datetime="2024-01-15">January 15, 2024</time>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IT Gadget Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

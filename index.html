@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Gadget Store - Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            color: #00bfff; 
+            animation: blink 1s linear infinite;
+        }
+        .nav-links {
+            list-style: none;
+        }
+        .nav-links li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            color: #030000;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .image-section {
+            background-image: url(home.webp); 
+            background-size: cover;
+            background-position: center;
+            height: 500px; 
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+        .features article {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .features img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .video-section {
+            text-align: center;
+            padding: 40px;
+            background-color: #000;
+            color: #fff;
+        }
+        .video-section video {
+            max-width: 100%;
+            height: auto;
+        }
+        .about {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .about h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        .about p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Blink animation */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">IT Gadget Store</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to IT Gadget Store</h1>
+            <p>Your one-stop destination for the latest computer and IT gadgets.</p>
+        </section>
+
+        <section class="image-section">
+        </section>
+
+        <section class="features">
+            <!-- Features articles here -->
+        </section>
+
+        <section class="video-section">
+            <h2>Our Products in Action</h2>
+            <video controls>
+                <source src="sp.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="about">
+            <h2>About IT Gadget Store</h2>
+            <p>We are a team of tech enthusiasts dedicated to bringing you the best in computer and IT gadgets. With years of experience in the industry, we pride ourselves on our knowledge, customer service, and quality products. Our mission is to provide you with a seamless shopping experience and the latest technology at competitive prices.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IT Gadget Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

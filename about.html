@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Gadget Store - About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            color: #00bfff; /* 更显眼的颜色 */
+            animation: blink 1s linear infinite;
+        }
+        .nav-links {
+            list-style: none;
+        }
+        .nav-links li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about-section {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        .about-section h2 {
+            color: #333;
+            font-size: 24px;
+        }
+        .about-section p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 10px; /* 减少内边距 */
+        }
+        .team-member {
+            width: 23%; /* 减少每个成员的宽度 */
+            margin: 10px; /* 增加成员之间的间距 */
+            text-align: center;
+        }
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Blink animation */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">IT Gadget Store</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section container">
+            <h2>About Us</h2>
+            <p>IT Gadget Store is a leading online retailer specializing in computer and IT gadgets. We are committed to providing our customers with the latest technology, exceptional service, and competitive prices. Our team of tech enthusiasts is dedicated to sourcing the best products and ensuring a seamless shopping experience for our customers.</p>
+            <p>Our mission is to empower people with technology that enhances their lives, work, and play. We strive to be the go-to destination for all your tech needs, offering a wide range of products from top brands and innovative startups.</p>
+        </section>
+
+        <section class="team-members container">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <img src="yg1.webp" alt="Team Member 1">
+                <h3>John Doe</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="yg2.webp" alt="Team Member 2">
+                <h3>Jane Smith</h3>
+                <p>Chief Technology Officer</p>
+            </div>
+            <div class="team-member">
+                <img src="yg3.webp" alt="Team Member 3">
+                <h3>Tony Johnson</h3>
+                <p>Marketing Manager</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IT Gadget Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
